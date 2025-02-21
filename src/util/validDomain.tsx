@@ -1,10 +1,10 @@
 
 export async function isValidDomain(email: string): Promise<boolean> {
 
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "";
+  // const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "";
 
   try {
-    const response = await fetch(`${API_BASE_URL}/api/validateDomain`, {
+    const response = await fetch(`https://amigosecreto-blue-iota.vercel.app/`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email }),
