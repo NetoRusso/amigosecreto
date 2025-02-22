@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Amigo Secreto Online",
     images: [
       {
-        url: "https://amigosecreto-blue-iota.vercel.app/images/amigo-secreto-og.png", 
+        url: "https://amigosecreto-blue-iota.vercel.app/images/amigo-secreto-og.png",
         width: 1200,
         height: 630,
         alt: "Gerador de Amigo Secreto Online",
