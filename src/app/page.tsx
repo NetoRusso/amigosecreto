@@ -1,5 +1,6 @@
 'use client';
 import BoxBodyHome from '@/components/BoxBodyHome';
+import Footer from '@/components/Footer';
 import HeaderHome from '@/components/HeaderHome';
 import Step0 from '@/components/Step0';
 import Step1 from '@/components/Step1';
@@ -45,6 +46,7 @@ export default function Home() {
 
         </BoxBodyHome >
       </MainContainer>
+      <Footer />
     </>
   );
 }

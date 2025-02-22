@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 interface HeaderHomeProps {
-  children: React.ReactNode; // Aceita qualquer elemento React
+  children: React.ReactNode; 
 }
 
 const Header = styled.div`

@@ -14,7 +14,6 @@ const CardContainer = styled.div<{ $open: boolean }>`
   position: relative;
   width: 120px;
   height: ${({ $open }) => ($open ? '128px' : '64px')};
-  /* background-color: ${({ $open }) => ($open ? '#fff' : '#fff')}; */
   background-color: #B83B5E;
   display: flex;
   flex-direction: column;
